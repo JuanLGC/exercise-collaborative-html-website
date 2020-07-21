@@ -1,3 +1,24 @@
 body{
     background: #BDBDBD;
 }
+.img1 {
+    width: 40rem;
+    height: 18rem;
+    background-image : url( ../img/1.jpg);
+    border-radius: 100%;
+    background-position: center; 
+    background-size: cover
+} 
+.heading-text{
+    font-size: 1.4rem;
+}
+
+.img2 {
+    width: 40rem;
+    height: 18rem;
+    background-image : url( ../img/2.jpg);
+    border-radius: 100%;
+    background-position: center; 
+    background-size: cover;
+} 
+
