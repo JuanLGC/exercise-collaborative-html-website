@@ -1,6 +1,25 @@
 body{
-   background: black;
+    background: #BDBDBD;
 }
+.img1 {
+    width: 40rem;
+    height: 18rem;
+    background-image : url( ../img/1.jpg);
+    border-radius: 100%;
+    background-position: center; 
+    background-size: cover
+} 
+.heading-text{
+    font-size: 1.4rem;
+}
+.img2 {
+    width: 40rem;
+    height: 18rem;
+    background-image : url( ../img/2.jpg);
+    border-radius: 100%;
+    background-position: center; 
+    background-size: cover;
+}  
 .tagline-box{
     background-image: url("../img/bg.jpg");
     background-color: blue;
@@ -11,18 +30,14 @@ body{
     align-content: center;
     text-align: center;
 }
-
-
 .tagline-title {
     font-size: 7rem;
 }
-
 .tagline-subtitle {
     font-size:4rem;
     margin-top: 0.5rem;
     margin-bottom: 18rem;
 }
-
 .tagline-subtitle, .tagline-title{
     background-color: rgba(255, 255, 255, 0.8);
     align-content: center;
@@ -30,4 +45,3 @@ body{
 .card-link{
        text-decoration: none;
      }
- master
